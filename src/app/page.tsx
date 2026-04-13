@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import ScrollReveal from "@/components/ScrollReveal";
+import VisualizerPreview from "@/components/VisualizerPreview";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
       </ScrollReveal>
       <ScrollReveal>
         <Projects />
+      </ScrollReveal>
+      <ScrollReveal>
+        <VisualizerPreview />
       </ScrollReveal>
       <ScrollReveal>
         <Skills />
