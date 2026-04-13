@@ -1,9 +1,9 @@
 export type StepState = {
   array: number[];
-  comparing: number[];
-  swapping: number[];
-  sorted: number[];
-  label: string;
+  comparing: number[];  // indices being compared
+  swapping: number[];   // indices being swapped
+  sorted: number[];     // indices confirmed sorted
+  label: string;        // description of current step
 };
 
 function snapshot(

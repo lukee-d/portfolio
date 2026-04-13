@@ -1,7 +1,7 @@
 const socials = [
-  { label: "GitHub", href: "https://github.com" },
-  { label: "LinkedIn", href: "https://linkedin.com" },
-  { label: "Email", href: "mailto:luke@example.com" },
+  { label: "GitHub", href: "https://github.com/lukee-d" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/luke-doudna/" },
+  { label: "Email", href: "mailto:lukedoudna06@gmail.com" },
 ];
 
 export default function Contact() {

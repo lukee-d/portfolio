@@ -4,9 +4,9 @@ import About from "@/components/About";
 import Currently from "@/components/Currently";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import InlineTerminal from "@/components/InlineTerminal";
 import Contact from "@/components/Contact";
 import ScrollReveal from "@/components/ScrollReveal";
-import VisualizerPreview from "@/components/VisualizerPreview";
 
 export default function Home() {
   return (
@@ -25,10 +25,10 @@ export default function Home() {
         <Projects />
       </ScrollReveal>
       <ScrollReveal>
-        <VisualizerPreview />
+        <Skills />
       </ScrollReveal>
       <ScrollReveal>
-        <Skills />
+        <InlineTerminal />
       </ScrollReveal>
       <ScrollReveal>
         <Contact />

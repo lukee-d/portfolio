@@ -1,38 +1,40 @@
 const projects = [
   {
     number: "01",
-    title: "Project name",
+    title: "Sift",
     description:
-      "Short description of what this project does and why it's interesting.",
-    tags: ["Java", "React"],
-    link: "#",
+      "A client-side search engine that indexes your files in the browser and ranks results using TF-IDF. No server, no uploads — everything runs locally.",
+    tags: ["React", "JavaScript", "TF-IDF"],
+    link: "https://sift-khaki.vercel.app/",
+    github: "https://github.com/lukee-d/sift",
     color: "bg-blue-50 text-blue-600 dark:bg-blue-950 dark:text-blue-400",
   },
   {
     number: "02",
-    title: "Project name",
+    title: "Chess Dashboard",
     description:
-      "Another project with a concise explanation of the problem it solves.",
-    tags: ["Python", "SQL"],
-    link: "#",
+      "A chess analytics dashboard that pulls Chess.com API data and surfaces insights — rating trends, opening repertoire, tilt detection, and more.",
+    tags: ["React", "D3.js", "Chess.com API"],
+    link: "https://chess-dashboard-two.vercel.app/",
+    github: "https://github.com/lukee-d/chess-dashboard",
     color: "bg-emerald-50 text-emerald-600 dark:bg-emerald-950 dark:text-emerald-400",
   },
   {
     number: "03",
-    title: "Project name",
+    title: "Sorting Visualizer",
     description:
-      "A third project — maybe something systems-level or low-level.",
-    tags: ["Hack ASM", "HDL"],
-    link: "#",
+      "Interactive visualizer for sorting algorithms — step through or auto-play bubble sort, merge sort, quick sort, and insertion sort.",
+    tags: ["React", "Next.js", "TypeScript"],
+    link: "/visualizer",
     color: "bg-amber-50 text-amber-600 dark:bg-amber-950 dark:text-amber-400",
   },
   {
     number: "04",
-    title: "Project name",
+    title: "Portfolio Site",
     description:
-      "A fourth project — algorithms, tools, or something creative.",
-    tags: ["JavaScript"],
-    link: "#",
+      "This site — built from scratch with Next.js, Tailwind, and TypeScript. Features dark mode, scroll animations, cursor glow, and an embedded terminal.",
+    tags: ["Next.js", "Tailwind", "TypeScript"],
+    link: "https://github.com/lukee-d",
     color: "bg-rose-50 text-rose-600 dark:bg-rose-950 dark:text-rose-400",
   },
 ];
@@ -48,6 +50,8 @@ export default function Projects() {
           <a
             key={project.number}
             href={project.link}
+            target={project.link.startsWith("/") ? undefined : "_blank"}
+            rel={project.link.startsWith("/") ? undefined : "noopener noreferrer"}
             className="group rounded-xl bg-gray-50 p-5 transition-all duration-300 hover:bg-gray-100 hover:-translate-y-1 hover:shadow-md dark:bg-gray-900 dark:hover:bg-gray-800 dark:hover:shadow-lg dark:hover:shadow-black/20"
           >
             <div className="mb-3 flex items-center gap-3">

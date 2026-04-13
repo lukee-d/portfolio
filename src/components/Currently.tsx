@@ -14,7 +14,7 @@ export default function Currently() {
       <p className="mb-4 text-xs font-medium uppercase tracking-widest text-gray-400 dark:text-gray-500">
         Currently
       </p>
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className="grid gap-3 sm:grid-cols-3">
         {currently.map((item) => (
           <div
             key={item.label}
