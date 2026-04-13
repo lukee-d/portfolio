@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #378ADD;
+  --color-accent-light: #E6F1FB;
+  --color-accent-dark: #185FA5;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--color-accent-light);
+  color: var(--color-accent-dark);
+}
