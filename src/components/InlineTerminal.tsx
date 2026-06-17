@@ -25,7 +25,7 @@ const COMMANDS: Record<string, string[]> = {
     "Passionate about software development, machine",
     "learning, and building things that actually work.",
     "",
-    "I care about understanding systems deeply — from",
+    "I care about understanding systems deeply, from",
     "algorithms down to how bits move through hardware.",
   ],
   projects: [
@@ -37,10 +37,11 @@ const COMMANDS: Record<string, string[]> = {
     "  02  Chess Dashboard       — Chess.com analytics",
     "      chess-dashboard-two.vercel.app",
     "",
-    "  03  Sorting Visualizer    — Algorithm viz tool",
-    "      /visualizer",
+    "  03  Song Wars             — Multiplayer music game",
+    "      song-wars.netlify.app",
     "",
-    "  04  Portfolio Site         — You're looking at it",
+    "  04  MCSR Stats            — Speedrun analytics",
+    "      mcsr-stats-three.vercel.app",
   ],
   skills: [
     "Languages:   Python, Java, C/C++, C#, JS, TS",
@@ -57,8 +58,8 @@ const COMMANDS: Record<string, string[]> = {
     "  Email      → lukedoudna06@gmail.com",
   ],
   currently: [
-    "📚 Learning    React & Next.js",
-    "🔨 Building    This portfolio",
+    "📚 Learning    LLMs & REST APIs",
+    "🔨 Building    Side projects",
     "🎓 Studying    Algorithms, Diff Eq, OOP",
   ],
   sudo: [

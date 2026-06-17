@@ -2,8 +2,8 @@
 // UPDATE THIS SECTION — just edit the items below
 // =============================================
 const currently = [
-  { emoji: "📚", label: "Learning", value: "React & Next.js" },
-  { emoji: "🔨", label: "Building", value: "This portfolio" },
+  { emoji: "📚", label: "Learning", value: "LLMs & REST APIs" },
+  { emoji: "🔨", label: "Building", value: "Side projects" },
   { emoji: "🎓", label: "Studying", value: "Algorithms, Diff Eq, OOP" },
 ];
 // =============================================
