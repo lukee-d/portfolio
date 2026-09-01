@@ -1,0 +1,42 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Experience from "@/components/Experience";
+import Currently from "@/components/Currently";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import InlineTerminal from "@/components/InlineTerminal";
+import Contact from "@/components/Contact";
+import ScrollReveal from "@/components/ScrollReveal";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen">
+      <Navbar />
+      <ScrollReveal>
+        <Hero />
+      </ScrollReveal>
+      <ScrollReveal>
+        <About />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Experience />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Currently />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Projects />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Skills />
+      </ScrollReveal>
+      <ScrollReveal>
+        <InlineTerminal />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Contact />
+      </ScrollReveal>
+    </main>
+  );
+}
